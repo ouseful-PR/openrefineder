@@ -1,2 +1,3 @@
+jupyter-server-proxy
 git+https://github.com/dbutlerdb/refine-client-py
 #git+https://github.com/opencultureconsulting/openrefine-client #More comprehensive API? But Py2?
