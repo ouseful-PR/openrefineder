@@ -11,6 +11,8 @@ mkdir -p $HOME/openrefine
 mkdir -p $HOME/.jupyter/
 mv binder/jupyter_notebook_config.py binder/open-refine-logo.svg $HOME/.jupyter/
 
+jupyter labextension install jupyterlab-server-proxy
+
 #pip install https://github.com/betatim/nbserverproxy/archive/master.zip
 #jupyter serverextension enable --py nbserverproxy
 

@@ -1,3 +1,9 @@
-jupyter-server-proxy
+#A version mismatch from jupyterlab-server-proxy in jupyter-server-proxy 
+# against jupyterlab means we need to force things?
+
+git+https://github.com/jupyterlab/jupyterlab
+git+https://github.com/jupyterhub/jupyter-server-proxy
+
+
 git+https://github.com/dbutlerdb/refine-client-py
 #git+https://github.com/opencultureconsulting/openrefine-client #More comprehensive API? But Py2?
