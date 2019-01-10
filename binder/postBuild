@@ -2,9 +2,14 @@
 set -e
 
 wget -q -O openrefine-2.8.tar.gz https://github.com/OpenRefine/OpenRefine/releases/download/2.8/openrefine-linux-2.8.tar.gz
-tar xzf openrefine-2.8.tar.gz
+mkdir -p $HOME/.openrefine
+tar xzf openrefine-2.8.tar.gz -C $HOME/.openrefine
+rm openrefine-2.8.tar.gz
 
 mkdir -p $HOME/openrefine
+
+mkdir -p $HOME/.jupyter/
+mv binder/jupyter_notebook_config.py binder/open-refine-logo.svg $HOME/.jupyter/
 
 #pip install https://github.com/betatim/nbserverproxy/archive/master.zip
 #jupyter serverextension enable --py nbserverproxy
