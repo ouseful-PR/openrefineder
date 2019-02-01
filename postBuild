@@ -6,6 +6,12 @@ tar xzf openrefine-2.8.tar.gz
 
 mkdir -p $HOME/openrefine
 
+mkdir -p $HOME/.jupyter/
+
+#This script runs in $HOME rather than $HOME/binder
+mv jupyter_notebook_config.py open-refine-logo.svg $HOME/.jupyter/
+
+
 #pip install https://github.com/betatim/nbserverproxy/archive/master.zip
 #jupyter serverextension enable --py nbserverproxy
 
