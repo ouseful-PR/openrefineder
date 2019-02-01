@@ -1,3 +1,6 @@
+#Got a version mismatch?
+git+https://github.com/jupyterlab/jupyterlab
+
 #jupyter-server-proxy
 https://github.com/manics/jupyter-server-proxy/archive/config-port.zip
 git+https://github.com/dbutlerdb/refine-client-py
